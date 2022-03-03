@@ -1,0 +1,16 @@
+{
+	"name": "How do i order online ?",
+	"slug": "faq-babolat-001",
+	"question": "How do i order online ?",
+	"answer": "1. Choose the items you are interested in from our online catalogue and add them to your shopping cart. 2. When all the wanted items have been added to your basket, click on the \"basket icon\". (at the very top right of the site).\n2. Check the contents of your basket and then click on \"Payment\".\n3. Create a Babolat account or log in to your account.\n4. Fill in your delivery information, your delivery method and your billing information.\n5. Choose your method of payment and place your order",
+	"id": "faq-babolat-001",
+	"uid": 17069483,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	}
+}

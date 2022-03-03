@@ -1,0 +1,15 @@
+{
+	"question": "Orders",
+	"id": "faq-babolat-01",
+	"uid": 17069477,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "Orders",
+	"slug": "faq-babolat-01"
+}

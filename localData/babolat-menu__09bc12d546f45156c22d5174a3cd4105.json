@@ -1,0 +1,76 @@
+{
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-02-09T11:32:25Z"
+	},
+	"name": "Returns & Exchanges",
+	"slug": "help-returns-exchange",
+	"c_relatedFAQs": [
+		{
+			"answer": "If you have purchased a product in a shop, he will be your preferred contact for any complaints. If you have a specific request, please contact our [customer service](https://help.babolat.com/hc/es/requests/new?ticket_form_id=360000196437).",
+			"slug": "faq-babolat-085",
+			"question": "How do I return purchases made at a shop selling Babolat products?"
+		},
+		{
+			"answer": "No, exchange in the shop is not possible for an order placed on the website. For any exchange request, please contact our [customer service.](https://help.babolat.com/hc/es/requests/new?ticket_form_id=360000196437)",
+			"slug": "faq-babolat-086",
+			"question": "Is it possible to exchange in shops selling Babolat products?"
+		},
+		{
+			"answer": "Please contact our [Customer Service](https://help.babolat.com/hc/es/requests/new?ticket_form_id=360000248618) Department by clicking here, specifying the relevant order number.",
+			"slug": "faq-babolat-087",
+			"question": "The refund amount is incorrect, what should I do?"
+		},
+		{
+			"question": "How long does it take to get my refund?",
+			"answer": "The refund application will be made within 14 working days from the date the application is sent. If you do not receive a reply within this time, it is most likely due to the fact that we have not yet received your package. Please do not hesitate to contact customer service if you would like to know the status of your refund request.",
+			"slug": "faq-babolat-088"
+		},
+		{
+			"slug": "faq-babolat-089",
+			"question": "How do I track my return?",
+			"answer": "To follow in real time the evolution of a return, go to the \"My Orders\" section for your secure space\"My Account\".  \nYou will find details of your return requests and their status, as well as the list of corresponding credit notes and refunds.  \nAs soon as the returned products are received and checked by our teams, we will proceed with your refund.  \nHere are the different return statuses:  \n\\- : Your return request has been taken into account, our logistics teams are waiting for the returned product(s) for validation of the refund."
+		},
+		{
+			"question": "Can I exchange my products?",
+			"answer": "For now it is not possible to exchange products. If you are interested in receiving another size or colour, you will have to return your product and place a new order on our website. Your return will be refunded as soon as your package has arrived at our warehouse.",
+			"slug": "faq-babolat-090"
+		},
+		{
+			"question": "How much does it cost to return an item(s)?",
+			"answer": "Returning a product is free if you follow the free return instructions (within 30 days).",
+			"slug": "faq-babolat-091"
+		},
+		{
+			"question": "What is the procedure for returning one or several items?",
+			"answer": "For any return request, go to your account \\-\\> \"My orders\" \\-\\> \"View order\" \\-\\> \"Back\" and let yourself be guided . You have a maximum of 30 days after receiving your order to make a return from the site. You will then be able to track the status of your return from your customer account.  \n**Kindly note that for all returns from the UK, along with the return label, you will also need to print the Customs label.**  \nWARNING: For a product to be exchanged or refunded, it must not have been used, nor washed, and must be returned to us in its original packaging with the labels.",
+			"slug": "faq-babolat-092"
+		},
+		{
+			"question": "How many days do I have to return my order?",
+			"answer": "You have a maximum of 30 days after receiving your order to be able to make a return from the [site](https://www.babolat.com/gb). To make your return, go to your account \\-\\> \"My orders\"\" \\-\\>\"\"Return a product\"\" \\-\\> Select the \"quantity and product(s) you wish to return, then click on \"confirm return\". You will be able to \"print the return label\" and follow the instructions on it.",
+			"slug": "faq-babolat-093"
+		},
+		{
+			"question": "What are the conditions of return?",
+			"answer": "WARNING: For a product to be exchanged or refunded, it must not have been used or washed and must be returned in its original packaging with the labels. For any return request, go to your account \\-\\> \"My orders\"\\-\\> \"View order\". \\-\\> \"Back\" and let yourself be guided .  \nYou have a maximum of 30 days after receiving your order to make a return from the [site](https://www.babolat.com/gb).",
+			"slug": "faq-babolat-094"
+		},
+		{
+			"question": "I would like to cancel my order: what should I do?",
+			"answer": "Unfortunately, we are unable to modify orders once they have been confirmed. However, once the order has been received, you will have 14 days to return it to us and be reimbursed. Indeed, you benefit from a right of retraction for products purchased on our site, and this within fourteen (14) calendar days following receipt of the products. To exercise this right of retraction and for any request for return, please log on to your Babolat Space \\-\\> My Account \\-\\> My Orders \\-\\> then let yourself be guided!",
+			"slug": "faq-babolat-095"
+		},
+		{
+			"question": "I would like to modify my order: how to proceed ?",
+			"answer": "Unfortunately, we are unable to modify orders once they have been confirmed.I would like to modify my order: how to proceed ?",
+			"slug": "faq-babolat-096"
+		}
+	],
+	"id": "returns-exchange",
+	"uid": 17069386
+}

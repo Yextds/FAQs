@@ -1,0 +1,41 @@
+{
+	"c_relatedFAQs": [
+		{
+			"question": "How will my personal data be used?",
+			"answer": "To ensure your safety, Babolat is committed to being in accordance with the General Data Protection Regulations (GDPR). Please be aware that any personal data you entrust to us is used to provide you with the best possible customer experience. To find out more you can consult our \"privacy policy\"",
+			"slug": "faq-babolat-045"
+		},
+		{
+			"answer": "Keep up to date with our news and innovations by subscribing to our newsletter [here](https://www.babolat.com/gb/newsletter).",
+			"slug": "faq-babolat-046",
+			"question": "How do I subscribe to Babolat newsletters?"
+		},
+		{
+			"question": "How can I stop receiving newsletters or other commercial emails?",
+			"answer": "You can unsubscribe at any time by clicking on the link provided for this purpose in the newsletter or the commercial e\\-mail from which you wish to unsubscribe.",
+			"slug": "faq-babolat-047"
+		},
+		{
+			"question": "What are the General Conditions of the Babolat.com site?",
+			"answer": "You can consult our General Conditions [here](https://www.babolat.com/gb/legal/terms\\-conditions.html).",
+			"slug": "faq-babolat-048"
+		},
+		{
+			"question": "What is your Privacy Policy?",
+			"answer": "You can view our privacy policy [here](https://www.babolat.com/gb/legal/privacypolicy.html).",
+			"slug": "faq-babolat-049"
+		}
+	],
+	"id": "newsletter",
+	"uid": 17069369,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-02-09T10:03:03Z"
+	},
+	"name": "Newsletter",
+	"slug": "help-newsletter"
+}

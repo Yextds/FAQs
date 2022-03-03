@@ -1,0 +1,48 @@
+{
+	"uid": 18701387,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 83334,
+			"id": "ce_babolatMenuCategories"
+		},
+		"updateTimestamp": "2022-03-01T09:42:20Z"
+	},
+	"name": "Babolat Menu Categories",
+	"slug": "babolat_menu_categories.html",
+	"c_relatedProducts": [
+		{
+			"name": "Newsletter",
+			"slug": "help-newsletter"
+		},
+		{
+			"name": "Orders",
+			"slug": "help-orders"
+		},
+		{
+			"name": "Products information",
+			"slug": "help-product-information"
+		},
+		{
+			"name": "Size Guide",
+			"slug": "help-size-guide"
+		},
+		{
+			"name": "Payment & security",
+			"slug": "help-payment-security"
+		},
+		{
+			"name": "Discount & sales",
+			"slug": "help-discount-sales"
+		},
+		{
+			"name": "Shipping & Transport",
+			"slug": "help-shipping-transport"
+		},
+		{
+			"name": "Returns & Exchanges",
+			"slug": "help-returns-exchange"
+		}
+	],
+	"id": "babolat_menu_categories"
+}

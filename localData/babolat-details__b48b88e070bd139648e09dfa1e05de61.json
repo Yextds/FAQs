@@ -1,0 +1,16 @@
+{
+	"question": "How can I follow the progress of my order?",
+	"answer": "To follow in real time the evolution of an order, go to the \"My Orders\" section of your secure area \"My Account.\"  \nYou will be able to access your \"My Account\" area by clicking at the top right on the next icon \"Profile.\"",
+	"id": "faq-babolat-008",
+	"uid": 17133343,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "How can I follow the progress of my order?",
+	"slug": "faq-babolat-008"
+}

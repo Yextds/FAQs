@@ -1,0 +1,16 @@
+{
+	"uid": 17133291,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "Can I change my delivery address after my order has been sent?",
+	"slug": "faq-babolat-003",
+	"question": "Can I change my delivery address after my order has been sent?",
+	"answer": "As soon as you confirm your order, it is automatically sent to the logistics centre for preparation and dispatch. It is therefore impossible to change the address of delivery of an order already placed. However, you should be able to modify it via the UPS portal, for more information click [here](https://www.ups.com/fr/fr/help\\-center/sri/tracking/change\\-delivery.page?loc=fr_FR).",
+	"id": "faq-babolat-003"
+}

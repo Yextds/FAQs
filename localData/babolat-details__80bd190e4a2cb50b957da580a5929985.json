@@ -1,0 +1,16 @@
+{
+	"id": "faq-babolat-007",
+	"uid": 17133300,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "How long do I have to wait before I can track my order?",
+	"slug": "faq-babolat-007",
+	"question": "How long do I have to wait before I can track my order?",
+	"answer": "You will be able to track your order 24 hours after receipt of the email informing you of the dispatch of your package. Indeed, this is the time it takes for our carrier to scan it and direct it to the right logistics platform. Please note: this deadline may be longer if the parcel is dispatched just before a weekend or public holiday."
+}

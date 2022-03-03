@@ -1,0 +1,73 @@
+---
+{
+    "stream": {
+        "$id": "babolat-menu",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "filter": {
+        "entityTypes": [
+          "ce_babolatMenu"
+        ]
+      },
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "slug",
+        "c_relatedFAQs.question",
+        "c_relatedFAQs.answer",
+        "c_relatedFAQs.slug"
+      ],
+      "localization": {
+          "locales": ["en"]
+      }
+    },
+     "urlFormat": "{{slug}}.html"
+}
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="Luc's Fashion Warehouse Home Page">
+    {{>head}}
+    {{!-- <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> --}}
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+    <style type="text/css">
+      a:hover{text-decoration: underline;}
+    </style>
+</head>
+  <div class="container mx-auto px-4">
+    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+
+        {{>navbar}}
+
+        <h2 style="font-size: 40px;font-weight: 3px;">{{name}}</h2>
+      {{#each c_relatedFAQs}}
+
+      <div class="flex flex-col justify-center items-center" style="align-items: baseline;">
+      <ul class="article-list" style="font-size: inherit;;
+    margin: 11px;">
+                
+                  <li class="article-list-item">
+                    
+                    <a class="article-list-link"  href="{{slug}}.html">{{question}}</a>
+                    
+                  </li>
+                
+              </ul>
+      <div>
+        {{/each}}
+
+      {{>footer}}
+
+    </body>
+
+
+</html>

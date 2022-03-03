@@ -1,0 +1,16 @@
+{
+	"name": "What should I do if the item I am looking for is \"out of stock\" or if a colour/size is not selectable?",
+	"slug": "faq-babolat-004",
+	"question": "What should I do if the item I am looking for is \"out of stock\" or if a colour/size is not selectable?",
+	"answer": "The item you are looking for is out of stock. You can keep yourself informed about its restocking by contacting customer service ([link customer service](https://help.babolat.com/hc/fr/requests/new?ticket_form_id=360000196437)).",
+	"id": "faq-babolat-004",
+	"uid": 17133292,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	}
+}

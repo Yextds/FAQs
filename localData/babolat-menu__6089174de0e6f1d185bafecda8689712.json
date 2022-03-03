@@ -1,0 +1,14 @@
+{
+	"slug": "help-payment-security",
+	"id": "payment-security",
+	"uid": 17069377,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-02-07T12:54:53Z"
+	},
+	"name": "Payment & security"
+}

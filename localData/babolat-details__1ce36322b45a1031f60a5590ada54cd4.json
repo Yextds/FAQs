@@ -1,0 +1,16 @@
+{
+	"answer": "If you wish, you can be delivered in an \"UPS Access Point\". To do so, enter the address around which you wish to find a pick\\-up point. There are other possible alternatives. You can pick your parcel in a relay point.",
+	"id": "faq-babolat-006",
+	"uid": 17133298,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "Is it possible to be delivered elsewhere than at home?",
+	"slug": "faq-babolat-006",
+	"question": "Is it possible to be delivered elsewhere than at home?"
+}

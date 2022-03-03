@@ -1,0 +1,14 @@
+{
+	"id": "discount-sales",
+	"uid": 17069379,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-02-07T12:57:09Z"
+	},
+	"name": "Discount & sales",
+	"slug": "help-discount-sales"
+}

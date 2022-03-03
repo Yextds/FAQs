@@ -1,0 +1,106 @@
+{
+	"uid": 17069365,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-03-01T09:31:25Z"
+	},
+	"name": "Orders",
+	"slug": "help-orders",
+	"c_relatedFAQs": [
+		{
+			"question": "How do i order online ?",
+			"answer": "1. Choose the items you are interested in from our online catalogue and add them to your shopping cart. 2. When all the wanted items have been added to your basket, click on the \"basket icon\". (at the very top right of the site).\n2. Check the contents of your basket and then click on \"Payment\".\n3. Create a Babolat account or log in to your account.\n4. Fill in your delivery information, your delivery method and your billing information.\n5. Choose your method of payment and place your order",
+			"slug": "faq-babolat-001"
+		},
+		{
+			"question": "I haven't received a confirmation email, what should I do?",
+			"answer": "Check that it has not arrived accidentally in your spam/junk mail or if you have a Gmail address in the Promotion or Notification tab. Also, make sure that you have not made any mistakes in the spelling of your email address. If you are still logged in, you will be able to check your information by clicking on \"Profile\" \\> my information. If you still haven't received anything, please contact our customer service.",
+			"slug": "faq-babolat-002"
+		},
+		{
+			"question": "Can I change my delivery address after my order has been sent?",
+			"answer": "As soon as you confirm your order, it is automatically sent to the logistics centre for preparation and dispatch. It is therefore impossible to change the address of delivery of an order already placed. However, you should be able to modify it via the UPS portal, for more information click [here](https://www.ups.com/fr/fr/help\\-center/sri/tracking/change\\-delivery.page?loc=fr_FR).",
+			"slug": "faq-babolat-003"
+		},
+		{
+			"question": "What should I do if the item I am looking for is \"out of stock\" or if a colour/size is not selectable?",
+			"answer": "The item you are looking for is out of stock. You can keep yourself informed about its restocking by contacting customer service ([link customer service](https://help.babolat.com/hc/fr/requests/new?ticket_form_id=360000196437)).",
+			"slug": "faq-babolat-004"
+		},
+		{
+			"question": "How do I know that my order is being processed?",
+			"answer": "You will receive an order confirmation email as soon as your order has been confirmed, and you will receive a shipping confirmation as soon as your order has been processed.  \nYou can check the status of your order at any time by logging into your Babolat account section \"My Orders\"",
+			"slug": "faq-babolat-005"
+		},
+		{
+			"question": "Is it possible to be delivered elsewhere than at home?",
+			"answer": "If you wish, you can be delivered in an \"UPS Access Point\". To do so, enter the address around which you wish to find a pick\\-up point. There are other possible alternatives. You can pick your parcel in a relay point.",
+			"slug": "faq-babolat-006"
+		},
+		{
+			"answer": "You will be able to track your order 24 hours after receipt of the email informing you of the dispatch of your package. Indeed, this is the time it takes for our carrier to scan it and direct it to the right logistics platform. Please note: this deadline may be longer if the parcel is dispatched just before a weekend or public holiday.",
+			"slug": "faq-babolat-007",
+			"question": "How long do I have to wait before I can track my order?"
+		},
+		{
+			"slug": "faq-babolat-008",
+			"question": "How can I follow the progress of my order?",
+			"answer": "To follow in real time the evolution of an order, go to the \"My Orders\" section of your secure area \"My Account.\"  \nYou will be able to access your \"My Account\" area by clicking at the top right on the next icon \"Profile.\""
+		},
+		{
+			"question": "I'm having trouble accessing or buying online on your site.",
+			"answer": "You can first try to use another browser and/or device (tablet, phone, PC...). If the problem persists do not hesitate to contact us and we will do everything in our power to help you.",
+			"slug": "faq-babolat-009"
+		},
+		{
+			"slug": "faq-babolat-010",
+			"question": "Where can I find my order number?",
+			"answer": "As soon as we have received your order, we will send you an order confirmation by email containing your order number. If you can't find your confirmation email, log in to your Babolat space \\> \"Profile\" \\> \"My Orders\" and you will find the numbers of all the orders you have placed."
+		},
+		{
+			"question": "My order is incomplete, what should I do?",
+			"answer": "Don't hesitate a second and contact our customer service who will be happy to help you.",
+			"slug": "faq-babolat-011"
+		},
+		{
+			"answer": "From the confirmation of the order to its delivery you will be notified by email by us or our postal partner: UPS. If you return an order to us you will also be notified of the different steps: receipt of the goods, confirmation of refund etc.",
+			"slug": "faq-babolat-012",
+			"question": "Will I be notified of the progress of my order?"
+		},
+		{
+			"question": "Is it possible to be delivered outside metropolitan? Abroad?",
+			"answer": "For now we only deliver to metropolitan France and Luxembourg. In the coming weeks we should be able to deliver to most European countries.",
+			"slug": "faq-babolat-013"
+		},
+		{
+			"question": "Is it possible to send my order to a third party for a gift or to an address different from my billing address?",
+			"answer": "Yes, the parcels will be sent to the indicated delivery address and make sure to differentiate the billing address if you do not wish it to be the same.  \nNB: You have the possibility to register several delivery addresses on your account.",
+			"slug": "faq-babolat-014"
+		},
+		{
+			"question": "Can I pre-order or reserve a product?",
+			"answer": "No, it is not currently possible to pre\\-order or reserve products on our [website](https://www.babolat.com/gb).",
+			"slug": "faq-babolat-015"
+		},
+		{
+			"slug": "faq-babolat-016",
+			"question": "How do i manage the contents of my basket?",
+			"answer": "At the top right of the page you will find the shopping cart icon. From here you can remove a product or change the quantities you wish to order."
+		},
+		{
+			"question": "How do i find the product i am looking for on the website?",
+			"answer": "There are two ways to search for a product on our website:  \n\\- Enter the name of the product or its reference number in the search bar at the top of the page (image search bar)  \n\\- Browse the site, select the category from the options below the search bar. You will then be able to refine your results using the filters available on the left.  \nIf you want more information about the product, click on its image. Once you have found what you were looking for, add it to the shopping cart. If you still have any questions, do not hesitate to ask our customer service [here](https://help.babolat.com/hc/es/requests/new?ticket_form_id=360000248618) .",
+			"slug": "faq-babolat-017"
+		},
+		{
+			"question": "Do i need to create an account to purchase from your online shop?",
+			"answer": "Registration is not required to visit our website. However, you must create an account to place an order.",
+			"slug": "faq-babolat-018"
+		}
+	],
+	"id": "orders"
+}

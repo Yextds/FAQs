@@ -1,0 +1,27 @@
+{
+	"babolat_menu.hbs": [
+		"babolat-menu__8222c438c9994c724b3531ff50807486.json",
+		"babolat-menu__09bc12d546f45156c22d5174a3cd4105.json",
+		"babolat-menu__5dac17aa396950157ec92ac174ecec6c.json",
+		"babolat-menu__a084aa0f6a80eb439a7449259a35bd8b.json",
+		"babolat-menu__d26cf49b83d8e43121e59cc2eac55c7c.json",
+		"babolat-menu__e7ab61cb9a432adb79ebfc63ffb9a0b7.json",
+		"babolat-menu__6089174de0e6f1d185bafecda8689712.json",
+		"babolat-menu__6f6e33d62f23178f2e1f04c2548627a6.json"
+	],
+	"babolat_menudetails.hbs": [
+		"babolat-details__80bd190e4a2cb50b957da580a5929985.json",
+		"babolat-details__0000b4a2daa7257261634698b7ae76f8.json",
+		"babolat-details__46f6c5e562ecbaedd9a882a7968a66be.json",
+		"babolat-details__d1995ea2b27f84cc84da417217717854.json",
+		"babolat-details__1ce36322b45a1031f60a5590ada54cd4.json",
+		"babolat-details__b48b88e070bd139648e09dfa1e05de61.json",
+		"babolat-details__5524474248a7dce93787872b16b7827f.json",
+		"babolat-details__69351500fd45bb2c8f77c4287c374399.json",
+		"babolat-details__8f2d0066f6fc6f23a1c09009ba6c080b.json",
+		"babolat-details__e49e2ceadc1ed2f1c3c11138b29aa47b.json"
+	],
+	"index.hbs": [
+		"babolat-category__a3f550e389616633efba500f230515c5.json"
+	]
+}

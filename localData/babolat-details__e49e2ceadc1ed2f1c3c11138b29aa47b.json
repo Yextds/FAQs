@@ -1,0 +1,16 @@
+{
+	"slug": "faq-babolat-005",
+	"question": "How do I know that my order is being processed?",
+	"answer": "You will receive an order confirmation email as soon as your order has been confirmed, and you will receive a shipping confirmation as soon as your order has been processed.  \nYou can check the status of your order at any time by logging into your Babolat account section \"My Orders\"",
+	"id": "faq-babolat-005",
+	"uid": 17133297,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "How do I know that my order is being processed?"
+}

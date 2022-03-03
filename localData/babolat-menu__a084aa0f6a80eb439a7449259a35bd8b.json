@@ -1,0 +1,28 @@
+{
+	"c_relatedFAQs": [
+		{
+			"slug": "products-information-01"
+		},
+		{
+			"slug": "products-information-02"
+		},
+		{
+			"slug": "products-information-03"
+		},
+		{
+			"slug": "products-information-04"
+		}
+	],
+	"id": "product-information",
+	"uid": 17069367,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 80751,
+			"id": "ce_babolatMenu"
+		},
+		"updateTimestamp": "2022-03-01T11:09:02Z"
+	},
+	"name": "Products information",
+	"slug": "help-product-information"
+}

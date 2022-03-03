@@ -1,0 +1,16 @@
+{
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "I'm having trouble accessing or buying online on your site.",
+	"slug": "faq-babolat-009",
+	"question": "I'm having trouble accessing or buying online on your site.",
+	"answer": "You can first try to use another browser and/or device (tablet, phone, PC...). If the problem persists do not hesitate to contact us and we will do everything in our power to help you.",
+	"id": "faq-babolat-009",
+	"uid": 17133344
+}

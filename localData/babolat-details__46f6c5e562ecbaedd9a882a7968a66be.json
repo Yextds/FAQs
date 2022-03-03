@@ -1,0 +1,16 @@
+{
+	"id": "faq-babolat-002",
+	"uid": 17133290,
+	"meta": {
+		"locale": "en",
+		"entityType": {
+			"uid": 4002,
+			"id": "faq"
+		},
+		"updateTimestamp": "2022-03-01T13:10:43Z"
+	},
+	"name": "I haven't received a confirmation email, what should I do?",
+	"slug": "faq-babolat-002",
+	"question": "I haven't received a confirmation email, what should I do?",
+	"answer": "Check that it has not arrived accidentally in your spam/junk mail or if you have a Gmail address in the Promotion or Notification tab. Also, make sure that you have not made any mistakes in the spelling of your email address. If you are still logged in, you will be able to check your information by clicking on \"Profile\" \\> my information. If you still haven't received anything, please contact our customer service."
+}
