@@ -41,6 +41,7 @@
     {{!-- <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> --}}
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <style type="text/css">
@@ -49,31 +50,124 @@
     margin: -23px;
     padding: 38px;
 }
+body > main {
+    min-height: 65vh;
+}
+main {
+    font-family: 'Prompt', sans-serif;
+    display: block;
+}
+.container-divider {
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.container {
+    padding: 0;
+    width: 90%;
+}
+.article-container {
+    display: flex;
+    flex-direction: row;
+}
+.article-sidebar {
+    border: 0;
+    flex: 0 0 17%;
+    height: auto;    
+    margin-top: 31px;
+
+}
+.collapsible-sidebar {
+    max-height: none;
+    padding: 0;
+}
+.article {
+    flex: 1 0 66%;
+    max-width: 100%;
+    min-width: 640px;
+    padding: 0 30px;
+}
+.article-header {
+    flex-direction: row;
+    margin-top: 0;
+}
+.article-header {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h2{
+ font-weight: bolder; 
+}
+span#section-articles-title {
+    font-weight: 600;
+}
+ol, ul {
+    list-style: none;
+    margin: -23px;
+    padding: 21px;
+}
 </style>
-  <div class="container mx-auto px-4">
+  
     <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
         {{>navbar}}
         <hr>
-        <br>    
+        <br>
+<body>
 
-      <div class="flex justify-end">
-  <div class="mb-3 xl:w-96">
-    <div class="input-group relative flex  items-stretch w-full mb-4 rounded">
-      <input type="search" class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
-      <span class="input-group-text flex items-center px-3 py-1.5 text-base font-normal text-gray-700 text-center whitespace-nowrap rounded" id="basic-addon2">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
-        </svg>
-      </span>
-    </div>
-  </div>
-</div>    
-      <div class="flex flex-col justify-center items-center" style="align-items: baseline;">
-                    <h1 style="font-size: 40px;font-weight: 3px;">{{question}}</h1>
-                   <div > Ans:-{{convertRTFToHTML answer}}</div>
-            </div>        
+  <main role="main">
+   
+<div class="container">
+ 
+    
+
+  <div class="article-container" id="article-container">
+    <aside class="article-sidebar"
+           aria-labelledby="section-articles-title">
+        <div class="collapsible-sidebar">
+          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+            Articles in this section
+          </span>
+        </div>
+            </aside>
+
+
+    <article id="main-content" class="article">
+      <header class="article-header">
+        <h1 title="Is it possible to buy or use a gift card on the site?" class="article-title">
+          {{question}}
+        </h1>
+
       
+
+        
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p><span>{{ convertRTFToHTML answer}}</span></p></div>
+
+          <div class="article-attachments">
+            <ul class="attachments">
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+
         <div class="article-votes" style="border-top: 1px solid #ddd;padding: 30px 0;text-align: center;box-sizing: border-box;display: block;">
             <span class="article-votes-question" id="article-votes-label">Was this article helpful?</span>
             <div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
@@ -84,12 +178,67 @@
               <span class="article-vote-label">5 out of 5 found this helpful</span>
             </small>
           </div>
-        
-     
 
+      <div class="article-relatives">
+        
+        
+           <h2 class="related-articles-title">Related articles</h2>
+  <section class="related-articles">
+    
+     
+    
+    
+  </section>
+
+
+        
+      </div>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
       {{>footer}}
 
     </body>
+    <script>
+          function fetchData(){
+           // var filterAnd = {"$and":[{"savedFilters":{"$eq":"878833023"}}]};
+           // var filterParameters = {...filterAnd};
+           // var filterpar = JSON.stringify(filterParameters);
+           // console.log(filterParameters);
+          // var filter = encodeURI(filterpar);
+        fetch("https://liveapi-sandbox.yext.com/v2/accounts/me/entities?api_key=b262ae7768eec3bfa53bfca6d48e4000&v=20211229&limit=25&entityTypes=faq")
+        .then(response=>{
+          if(!response.ok){
+            throw Error("Error");
+          }
+          return response.json();
+        })
+        .then(data=>{
+           var html="";
+        data.response.entities.forEach((e,i)=>{
+         if(e.meta.folderId =='babolat'){
+          m=e.name;
+          t=e.slug;
+           html+='<div class="collapsible-sidebar-body">\
+            <ul>\
+                <li>\
+                  <a href='+t+' class="sidenav-item current-article">'+ m +'</a>\
+                </li>\
+            </ul>\
+          </div>';
+         }
+       })
+          $(".article-sidebar").append(html);
+          $(".related-articles").append(html);
+          })
+        }
+      
+         fetchData();
+      
+    </script>
 
 
 </html>
