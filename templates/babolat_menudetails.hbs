@@ -203,40 +203,65 @@ ol, ul {
 
     </body>
     <script>
-          function fetchData(){
-           // var filterAnd = {"$and":[{"savedFilters":{"$eq":"878833023"}}]};
-           // var filterParameters = {...filterAnd};
-           // var filterpar = JSON.stringify(filterParameters);
-           // console.log(filterParameters);
-          // var filter = encodeURI(filterpar);
-        fetch("https://liveapi-sandbox.yext.com/v2/accounts/me/entities?api_key=b262ae7768eec3bfa53bfca6d48e4000&v=20211229&limit=25&entityTypes=faq")
-        .then(response=>{
-          if(!response.ok){
+Promise.all([
+      fetch(
+        "https://liveapi-sandbox.yext.com/v2/accounts/me/entities?api_key=b262ae7768eec3bfa53bfca6d48e4000&v=20211229&limit=25&entityTypes=ce_babolatMenu",
+      ).then(response1=>{
+          if(!response1.ok){
             throw Error("Error");
           }
-          return response.json();
+          return response1.json();
+
+        }),
+      fetch(
+        "https://liveapi-sandbox.yext.com/v2/accounts/me/entities?api_key=b262ae7768eec3bfa53bfca6d48e4000&v=20211229&limit=25&entityTypes=faq",
+      ).then(response2=>{
+          if(!response2.ok){
+            throw Error("Error");
+          }
+          return response2.json();
+
         })
-        .then(data=>{
-           var html="";
-        data.response.entities.forEach((e,i)=>{
-         if(e.meta.folderId =='babolat'){
-          m=e.name;
-          t=e.slug;
+    ])
+      .then(([result1, result2]) => {
+         var html="";
+        result1.response.entities.forEach((e,i)=>{
+        if (e.name) {
+           x=e.name;
+           console.log(x);
+         
+        } else {
+          console.log("No review found.");
+            } 
+
+       
+      })
+         result2.response.entities.forEach((l,i)=>{
+         if(l.slug ="{{slug}}"){
+          m=l.question;
+          console.log(m);
+          t=l.slug;
            html+='<div class="collapsible-sidebar-body">\
             <ul>\
                 <li>\
                   <a href='+t+' class="sidenav-item current-article">'+ m +'</a>\
                 </li>\
             </ul>\
-          </div>';
-         }
-       })
+          </div>';  
+            
+        } else {
+         console.log("No review found.");
+        }
+
+      })
           $(".article-sidebar").append(html);
           $(".related-articles").append(html);
-          })
-        }
-      
-         fetchData();
+     })
+      .catch((error) => console.log("error", error));
+    
+
+
+
       
     </script>
 
